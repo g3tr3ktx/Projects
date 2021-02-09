@@ -41,11 +41,14 @@ headers = {
     'sec-fetch-site': 'same-origin',
     'sec-fetch-mode': 'cors',
     'sec-fetch-dest': 'empty',
-    'referer': 'https://1lib.in/book/3558229/9b6b53',
+    'referer': 'https://1lib.in/book/5460543/c88ef3',
     'accept-language': 'en-US,en;q=0.9',
     'cookie': 'proxiesNotWorking=; domainsNotWorking=',
 }
 
-response = requests.get('https://1lib.in/papi/book/3558229/formats')
+response = requests.get('https://1lib.in/papi/book/5460543/formats',headers=headers)
 
 print(response.text)
+
+#1997219
+# /book/1997219/fd7463
