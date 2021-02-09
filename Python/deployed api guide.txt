@@ -1,0 +1,5 @@
+#1 http://127.0.0.1:5000/bookname/the alchemist:
+    	this return booklist from query
+
+#2 http://127.0.0.1:5000/bookid/5460543/bookpath/c88ef3:
+    	this returns all pdf format and download file
